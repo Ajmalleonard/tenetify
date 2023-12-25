@@ -4,7 +4,7 @@ import Button from "./Button";
 
 function Hero() {
   return (
-    <section className="mx-auto max-w-[1440px] px-6 lg:px-20 3xl:px-0 flex  flex-col py-10 gap-20 md:gap-28 lg:py-20 xl:flex-row  h-[900px]">
+    <section className="mx-auto max-w-[1440px] px-6 lg:px-20 3xl:px-0 flex  flex-col py-10 gap-20 md:gap-28 lg:py-20 xl:flex-row  h-[800px]">
       <div className="hero-map" />
       <div className="relative flex z-20 flex-1 flex-col xl:w-1/2 ">
         <Image
@@ -14,7 +14,7 @@ function Hero() {
           height={50}
           alt="camp"
         />
-        <h1 className="bold-52 lg:bold-88 ">Tenetify Travel Gate 2025</h1>
+        <h1 className="bold-52 lg:bold-88 ">Marmara Travel Gate</h1>
         <p className="regular-16 mt-6 text-gray-30 xl:max-w-[520px]">
           We want to be on each other of your journeys seeking the satisfaction
           of seeing the incorruptible beauty of the nature. We can help you on

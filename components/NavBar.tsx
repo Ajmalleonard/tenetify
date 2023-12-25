@@ -11,13 +11,7 @@ function NavBar() {
   return (
     <nav className="max-container padding-container flexBetween relative z-30 py-5 px-5 ">
       <Link href="/">
-        <Image
-          className="mx-4"
-          src={logo}
-          alt="logo"
-          width={100}
-          height={100}
-        />
+        <Image className="mx-4" src={logo} alt="logo" width={80} height={80} />
       </Link>
       <ul className="hidden gap-6 lg:flex h-full ">
         {NAV_LINKS.map((link) => (
