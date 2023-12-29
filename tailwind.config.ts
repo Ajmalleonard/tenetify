@@ -19,11 +19,12 @@ module.exports = {
           50: '#585858',
           90: '#141414',
         },
-        orange: {
-          50: '#FF814C',
-        },
+     
         blue: {
           70: '#021639',
+        },
+        greenish:{
+          50:'#F8FAF8',
         },
         yellow: {
           50: '#FEC601',
@@ -32,7 +33,7 @@ module.exports = {
       backgroundImage: {
         'bg-img-1': "url('/img-1.png')",
         'bg-img-2': "url('/img-2.png')",
-        'feature-bg': "url('/feature-bg.png')",
+        'feature': "url('/feature-bg.png')",
         pattern: "url('/pattern.png')",
         'pattern-2': "url('/pattern-bg.png')",
       },

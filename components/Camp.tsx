@@ -40,7 +40,7 @@ const Camps = ({ bgImage, title, subtitle, peopleJoined }: campProps) => {
 
 function Camp() {
   return (
-    <div className="2xl:max-container relative flex flex-col py-10 lg:mb-10 lg:py-10 xl:mb-20  rounded-2xl lg:justify-center lg:items-center items-start">
+    <div className=" my-6 2xl:max-container relative flex flex-col py-10 lg:mb-10 lg:py-10 xl:mb-20  rounded-2xl lg:justify-center lg:items-center items-start">
       <div className="flex justify-start items-start hide-scrollbar h-[400px] w-full gap-3 overflow-x-auto lg:h-[600px] xl:[750px]">
         <Camps
           bgImage="bg-bg-img-1"
@@ -56,7 +56,7 @@ function Camp() {
         />
       </div>
       <div className="flex mt-10 md:w-[60%] sm:w-full lg:w-[700px] lg:h-[450px] lg:-mt-60 xl:-60 p-5">
-        <div className="bg-green-50 h-full w-full rounded-2xl flex flex-col items-start lg:p-20 lg:opacity-90 backdrop-blur-sm backdrop-filter backdrop-blur-8  p-10 text-center text-white justify-center gap-3">
+        <div className="bg-green-50 h-full w-full rounded-3xl flex flex-col items-start lg:p-20 lg:opacity-90 backdrop-blur-sm backdrop-filter backdrop-blur-8  p-10 text-center text-white justify-center gap-3">
           <h2 className=" text-[30px] text-start lg:text-[60px] leading-[60px] ">
             <span className="font-bold">Feeling Lost</span> and Not knowing the
             Way?

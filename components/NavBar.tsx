@@ -25,7 +25,6 @@ function NavBar() {
         ))}
       </ul>
       <div className="lg:flexCenter hidden">
-        {" "}
         <Button
           type={"button"}
           icon={userIcon}

@@ -54,6 +54,7 @@ function Hero() {
             label={"How We Works"}
             title={"download the app"}
             variant={"border_green_bgwhite "}
+            ratio={24}
           />
         </div>
       </div>
